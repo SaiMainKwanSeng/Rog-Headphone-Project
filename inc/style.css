@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #252422;
+}
+
+.container {
+    margin: auto;
+    position: relative;
+    max-width: 1200px;
+}
+
+header {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    width: 100px;
+    margin-left: 15px;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+header ul li {
+    list-style-type: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: aliceblue;
+    margin: 5px;
+}
+
+header ul li a:hover {
+    color: red;
+
+}
+
+.slide {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10%;
+}
+
+.slide button {
+    padding: 10px;
+    background-color: transparent;
+    border: 0;
+    color: aliceblue;  
+    font-size: 20px;
+    margin-left: -20px;
+    cursor: pointer; 
+}
+
+.slide button:hover {
+    color: red;
+}
+
+.image {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.image img {
+    height: 500px;
+    width: 500px;
+}
+ 
+.image #item1, #item2 {
+    display: none;
+}
+
+.title {
+    padding: 40px;
+}
+
+.title h1 {
+    font-size: 80px;
+    color: #fff;
+    font-weight: 200;
+    margin-top: 100px;
+}
+
+.title .test {
+    padding: 5px;
+    color: #808080;
+    width: 500px;
+    line-height: 30px;
+}
+
+.button button {
+    padding: 15px;
+    width: 200px;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: #14213d;
+    border-radius: 6px;  
+}
+
+.button button:hover {
+    background-color: #415a77;
+    cursor: pointer;
+}
+
+.product img {
+    width: 100px;
+    transition: .4s;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.active {
+    transform: scale(1.5);
+}
